@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881AA73B1A858B6900A6318C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 881AA73A1A858B6900A6318C /* main.m */; };
+		881AA73E1A858B6900A6318C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 881AA73D1A858B6900A6318C /* AppDelegate.m */; };
+		881AA7411A858B6900A6318C /* PopNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 881AA73F1A858B6900A6318C /* PopNews.xcdatamodeld */; };
+		881AA7441A858B6900A6318C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881AA7431A858B6900A6318C /* ViewController.m */; };
+		881AA7471A858B6900A6318C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881AA7451A858B6900A6318C /* Main.storyboard */; };
+		881AA7491A858B6900A6318C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881AA7481A858B6900A6318C /* Images.xcassets */; };
+		881AA74C1A858B6900A6318C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881AA74A1A858B6900A6318C /* LaunchScreen.xib */; };
+		881AA7581A858B6900A6318C /* PopNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 881AA7571A858B6900A6318C /* PopNewsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		881AA7521A858B6900A6318C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881AA72D1A858B6800A6318C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881AA7341A858B6900A6318C;
+			remoteInfo = PopNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		881AA7351A858B6900A6318C /* PopNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881AA7391A858B6900A6318C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881AA73A1A858B6900A6318C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		881AA73C1A858B6900A6318C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		881AA73D1A858B6900A6318C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		881AA7401A858B6900A6318C /* PopNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PopNews.xcdatamodel; sourceTree = "<group>"; };
+		881AA7421A858B6900A6318C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		881AA7431A858B6900A6318C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		881AA7461A858B6900A6318C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		881AA7481A858B6900A6318C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		881AA74B1A858B6900A6318C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		881AA7511A858B6900A6318C /* PopNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881AA7561A858B6900A6318C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881AA7571A858B6900A6318C /* PopNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopNewsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881AA7321A858B6900A6318C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881AA74E1A858B6900A6318C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		881AA72C1A858B6800A6318C = {
+			isa = PBXGroup;
+			children = (
+				881AA7371A858B6900A6318C /* PopNews */,
+				881AA7541A858B6900A6318C /* PopNewsTests */,
+				881AA7361A858B6900A6318C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881AA7361A858B6900A6318C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881AA7351A858B6900A6318C /* PopNews.app */,
+				881AA7511A858B6900A6318C /* PopNewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881AA7371A858B6900A6318C /* PopNews */ = {
+			isa = PBXGroup;
+			children = (
+				881AA73C1A858B6900A6318C /* AppDelegate.h */,
+				881AA73D1A858B6900A6318C /* AppDelegate.m */,
+				881AA7421A858B6900A6318C /* ViewController.h */,
+				881AA7431A858B6900A6318C /* ViewController.m */,
+				881AA7451A858B6900A6318C /* Main.storyboard */,
+				881AA7481A858B6900A6318C /* Images.xcassets */,
+				881AA74A1A858B6900A6318C /* LaunchScreen.xib */,
+				881AA73F1A858B6900A6318C /* PopNews.xcdatamodeld */,
+				881AA7381A858B6900A6318C /* Supporting Files */,
+			);
+			path = PopNews;
+			sourceTree = "<group>";
+		};
+		881AA7381A858B6900A6318C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				881AA7391A858B6900A6318C /* Info.plist */,
+				881AA73A1A858B6900A6318C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		881AA7541A858B6900A6318C /* PopNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				881AA7571A858B6900A6318C /* PopNewsTests.m */,
+				881AA7551A858B6900A6318C /* Supporting Files */,
+			);
+			path = PopNewsTests;
+			sourceTree = "<group>";
+		};
+		881AA7551A858B6900A6318C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				881AA7561A858B6900A6318C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881AA7341A858B6900A6318C /* PopNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881AA75B1A858B6900A6318C /* Build configuration list for PBXNativeTarget "PopNews" */;
+			buildPhases = (
+				881AA7311A858B6900A6318C /* Sources */,
+				881AA7321A858B6900A6318C /* Frameworks */,
+				881AA7331A858B6900A6318C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopNews;
+			productName = PopNews;
+			productReference = 881AA7351A858B6900A6318C /* PopNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		881AA7501A858B6900A6318C /* PopNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881AA75E1A858B6900A6318C /* Build configuration list for PBXNativeTarget "PopNewsTests" */;
+			buildPhases = (
+				881AA74D1A858B6900A6318C /* Sources */,
+				881AA74E1A858B6900A6318C /* Frameworks */,
+				881AA74F1A858B6900A6318C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881AA7531A858B6900A6318C /* PBXTargetDependency */,
+			);
+			name = PopNewsTests;
+			productName = PopNewsTests;
+			productReference = 881AA7511A858B6900A6318C /* PopNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881AA72D1A858B6800A6318C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AndrewJRangel;
+				TargetAttributes = {
+					881AA7341A858B6900A6318C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					881AA7501A858B6900A6318C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 881AA7341A858B6900A6318C;
+					};
+				};
+			};
+			buildConfigurationList = 881AA7301A858B6800A6318C /* Build configuration list for PBXProject "PopNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881AA72C1A858B6800A6318C;
+			productRefGroup = 881AA7361A858B6900A6318C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881AA7341A858B6900A6318C /* PopNews */,
+				881AA7501A858B6900A6318C /* PopNewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881AA7331A858B6900A6318C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881AA7471A858B6900A6318C /* Main.storyboard in Resources */,
+				881AA74C1A858B6900A6318C /* LaunchScreen.xib in Resources */,
+				881AA7491A858B6900A6318C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881AA74F1A858B6900A6318C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881AA7311A858B6900A6318C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881AA73E1A858B6900A6318C /* AppDelegate.m in Sources */,
+				881AA73B1A858B6900A6318C /* main.m in Sources */,
+				881AA7441A858B6900A6318C /* ViewController.m in Sources */,
+				881AA7411A858B6900A6318C /* PopNews.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881AA74D1A858B6900A6318C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881AA7581A858B6900A6318C /* PopNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		881AA7531A858B6900A6318C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881AA7341A858B6900A6318C /* PopNews */;
+			targetProxy = 881AA7521A858B6900A6318C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		881AA7451A858B6900A6318C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881AA7461A858B6900A6318C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		881AA74A1A858B6900A6318C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881AA74B1A858B6900A6318C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		881AA7591A858B6900A6318C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		881AA75A1A858B6900A6318C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881AA75C1A858B6900A6318C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		881AA75D1A858B6900A6318C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		881AA75F1A858B6900A6318C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PopNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopNews.app/PopNews";
+			};
+			name = Debug;
+		};
+		881AA7601A858B6900A6318C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PopNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopNews.app/PopNews";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881AA7301A858B6800A6318C /* Build configuration list for PBXProject "PopNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881AA7591A858B6900A6318C /* Debug */,
+				881AA75A1A858B6900A6318C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881AA75B1A858B6900A6318C /* Build configuration list for PBXNativeTarget "PopNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881AA75C1A858B6900A6318C /* Debug */,
+				881AA75D1A858B6900A6318C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		881AA75E1A858B6900A6318C /* Build configuration list for PBXNativeTarget "PopNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881AA75F1A858B6900A6318C /* Debug */,
+				881AA7601A858B6900A6318C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		881AA73F1A858B6900A6318C /* PopNews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				881AA7401A858B6900A6318C /* PopNews.xcdatamodel */,
+			);
+			currentVersion = 881AA7401A858B6900A6318C /* PopNews.xcdatamodel */;
+			path = PopNews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 881AA72D1A858B6800A6318C /* Project object */;
+}
